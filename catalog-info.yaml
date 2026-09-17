@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1beta1
+kind: Component
+metadata:
+  name: test-landing
+  description: Python app that displays time, named test-landing
+  annotations:
+    github.com/project-slug: saguillen/test-landing
+spec:
+  type: service
+  owner: group:default/tfm-org-saguillen  # Cambiar según sea necesario
+  lifecycle: production  # Cambiar según sea necesario

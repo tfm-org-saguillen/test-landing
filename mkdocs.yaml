@@ -1,0 +1,12 @@
+site_name: 'test-landing'
+site_description: 'Main documentation for the test-landing'
+repo_url: https://github.com/tfm-org-saguillen/test-landing
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.json`
+nav:
+  - Overview:
+      - Getting started: 'docs/index.md'
